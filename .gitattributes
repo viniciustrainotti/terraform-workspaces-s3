@@ -1,0 +1,2 @@
+bucket-tfstate/terraform.tfstate filter=git-crypt diff=git-crypt
+secret.key !filter !diff
