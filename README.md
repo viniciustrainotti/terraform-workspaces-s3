@@ -10,6 +10,7 @@ $ terraform init
 $ terraform plan -out="plan.tfout"
 $ terraform apply "plan.tfout"
 $ cd ../bucket-s3
+$ terraform init -backend=true -backend-config="backend.hcl"
 $ terraform workspace new dev
 $ # verify info into variables and backend.hcl file
 $ terraform plan -out="plan.tfout"
