@@ -1,0 +1,6 @@
+bucket         = "tfstate-952214114241"
+key            = "terraform.tfstate"
+region         = "us-east-1"
+profile        = "viniciustrainotti"
+dynamodb_table = "tflock-tfstate-952214114241"
+workspace_key_prefix = "examples/bucket-s3"
